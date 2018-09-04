@@ -3,15 +3,6 @@ body {
   background-color: #fafafa;
   font-family: arial;
 }
-.header {
-  background-color: white;
-  margin: -5px;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 1px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid grey;
-}
 button {
   height: 40px;
   border-radius: 5px;
@@ -25,19 +16,42 @@ input {
   border-radius: 1px;
   background-color: #fafafa;
 }
+.header {
+  background-color: white;
+  margin: -5px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
 .activity {
   padding-right: 20px;
 }
 .container {
   margin: 100px;
   height: 100vw;
-  border: solid hotpink;
+  /* border: solid hotpink; */
 }
 .row {
   padding-left: 350px;
 }
 .row h1, button, .activity {
   display: inline-block;
+}
+.bio {
+  margin-left: 40px;
+}
+.main-body {
+  /* border: solid 1px black; */
+  margin: 30px;
+  height: 80vw;
+}
+.main-body img {
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
 }
 #log-in, #follow {
   background-color: #3897f0;
@@ -49,20 +63,11 @@ input {
   color: #3897f0;
 }
 #profile-pic {
+  margin-left: 60px;
   border-radius: 50%;
   border: 1px solid grey;
-}
-#profile-pic, #bio {
   float: left;
 }
-.main-body {
-  border: solid 1px black;
-  margin: 30px;
-  height: 80vw;
-}
-.main-body img {
-  flex-direction: column;
-  padding: 20px;
-  width: 300px;
-  height: 200px;
+#lorem {
+  padding-right: 40px;
 }
