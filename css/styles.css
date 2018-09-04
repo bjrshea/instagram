@@ -1,0 +1,68 @@
+body {
+  padding-top: 0px;
+  background-color: #fafafa;
+  font-family: arial;
+}
+.header {
+  background-color: white;
+  margin: -5px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+button {
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 11pt;
+}
+input {
+  margin-top: 12px;
+  height: 30px;
+  width: 150px;
+  border-radius: 1px;
+  background-color: #fafafa;
+}
+.activity {
+  padding-right: 20px;
+}
+.container {
+  margin: 100px;
+  height: 100vw;
+  border: solid hotpink;
+}
+.row {
+  padding-left: 350px;
+}
+.row h1, button, .activity {
+  display: inline-block;
+}
+#log-in, #follow {
+  background-color: #3897f0;
+  border-color: #3897f0;
+  color: white;
+}
+#sign-up {
+  border: none;
+  color: #3897f0;
+}
+#profile-pic {
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+#profile-pic, #bio {
+  float: left;
+}
+.main-body {
+  border: solid 1px black;
+  margin: 30px;
+  height: 80vw;
+}
+.main-body img {
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+}
